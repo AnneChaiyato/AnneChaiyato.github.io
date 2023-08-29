@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AnneChaiyato/AnneChaiyato.github.io.git/static/css/main.1a96bf8d.css",
+    "main.js": "/AnneChaiyato/AnneChaiyato.github.io.git/static/js/main.1eef1856.js",
+    "static/media/revicons.eot": "/AnneChaiyato/AnneChaiyato.github.io.git/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/AnneChaiyato/AnneChaiyato.github.io.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/AnneChaiyato/AnneChaiyato.github.io.git/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/AnneChaiyato/AnneChaiyato.github.io.git/index.html",
+    "main.1a96bf8d.css.map": "/AnneChaiyato/AnneChaiyato.github.io.git/static/css/main.1a96bf8d.css.map",
+    "main.1eef1856.js.map": "/AnneChaiyato/AnneChaiyato.github.io.git/static/js/main.1eef1856.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a96bf8d.css",
+    "static/js/main.1eef1856.js"
+  ]
+}
