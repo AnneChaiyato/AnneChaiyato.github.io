@@ -236,6 +236,10 @@
         box-shadow: none;
     }
 
+    .feature-content-home {
+        display: none;
+    }
+
     .card-media {
         height: 40vh;
         width: auto;
@@ -419,7 +423,7 @@
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1280px) {
+@media screen and (min-width: 470px) and (max-width: 1280px) {
 
     body {
         margin: 0;
@@ -512,7 +516,7 @@
     
         .nav-link {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-decoration: none;
         font-weight: lighter;
         font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -521,7 +525,7 @@
     
         .nav-link-mouse-over {
         color: gray;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-decoration: none;
         font-weight: lighter;
         font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -545,7 +549,7 @@
         .intro-img {
         position: relative;
         width: auto;
-        height: 40vh;
+        height: 60vh;
         margin: 0px;
         z-index: 999;
         }
@@ -630,8 +634,12 @@
             box-shadow: none;
         }
 
+        .feature-content-home {
+            display: none;
+        }
+
         .card-action-area.home{
-            height: 60vh;
+            height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: start;
@@ -640,7 +648,7 @@
         }
     
         .card-media {
-            height: 40vh;
+            height: 30vh;
             width: auto;
             margin: 0px;
             padding: 0px;
@@ -807,29 +815,38 @@
     
         .portfolio-title {
             text-align: left;
-            grid-area: header;
-            justify-self: start;
+            font-size: 2rem;
+            margin-left: 15px;
+            margin-bottom: 15px;
         }
-    
+        
+       
         .project-container {
             
-            display: grid;
-            grid-template-columns: 0.40fr 0.40fr;
-            grid-template-rows: auto;
-            grid-template-areas:
-            "header header ";
-            column-gap: 20px;
-            row-gap: 20px;
-            place-items: center;
-            justify-content:center;
-            margin-bottom: 50px;
-            
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+
         }
     
+        .project-feature-card {
+            height: 65vh;
+            width: 90vw;
+            margin-bottom: 30px;
+            border-style: solid;
+            border-width: 0px;
+            border-color: transparent;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+
+        }
 
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 470px) {
 
     body {
         margin: 0;
@@ -1022,6 +1039,9 @@
             box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
     
         }
+        .feature-content-home {
+            display: none;
+        }
     
         .card-content {
             height: auto;
@@ -1210,27 +1230,36 @@
             border-color: white;
         }
     
-        .right-img.sm-img {
-            position: relative;
-            display: inline-block;
-            width: 45vw;
-            height: 35vh;
-        }
-    
+       
         .portfolio-title {
             text-align: left;
-            justify-self: start;
+            font-size: 2rem;
             margin-left: 15px;
+            margin-bottom: 15px;
         }
-    
+        
        
         .project-container {
             
             display: flex;
             flex-direction: column;
-            width: 70vw;
+            width: 100vw;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
 
         }
+    
+        .project-feature-card {
+            height: auto;
+            width: 80vw;
+            margin-bottom: 30px;
+            border-style: solid;
+            border-width: 0px;
+            border-color: transparent;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
 }
