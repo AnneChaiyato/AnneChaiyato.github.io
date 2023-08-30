@@ -91,7 +91,7 @@
 
     .nav-link {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-decoration: none;
     font-weight: lighter;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -124,13 +124,13 @@
     .intro-img {
     position: relative;
     width: auto;
-    height: 60vh;
+    height: 50vh;
     margin: 0px;
     z-index: 999;
     }
 
     .intro-name {
-    font-size:  4em;
+    font-size:  4rem;
     font-weight: bolder;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     color:  black;
@@ -140,7 +140,7 @@
     }
 
     .intro-title {
-    font-size:  4em;
+    font-size:  4rem;
     font-weight: bolder;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     color:  black;
@@ -177,7 +177,7 @@
     }
 
     .feature-card {
-    
+        
         height: auto;
         margin: 15px;
         border-style: solid;
@@ -188,6 +188,17 @@
         box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 
     }
+
+    .card-content {
+        height: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0px;
+        border-style: hidden;
+        bottom: 0px;
+        border-style: hidden;
+    
+    }  
 
     .custom-card {
         height: auto; 
@@ -204,7 +215,6 @@
         border-style: hidden;
         bottom: 0px;
         border-style: hidden;
-        
     
     }   
 
@@ -217,6 +227,15 @@
         
     }
 
+    .card-action-area.home{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items:flex-start;
+        box-shadow: none;
+    }
+
     .card-media {
         height: 40vh;
         width: auto;
@@ -226,7 +245,7 @@
 
     .content-container {
         width: 90vw;
-        max-height: 40vh;
+        max-height: 30vh;
         margin-top: 50px;
         justify-content: start;
         align-items: center;
@@ -417,7 +436,7 @@
         }
     
         h2 {
-            font-size: 2rem;
+            font-size: 3rem;
             text-align: center;
             font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
             font-weight: normal;
@@ -526,13 +545,13 @@
         .intro-img {
         position: relative;
         width: auto;
-        height: 65vh;
+        height: 40vh;
         margin: 0px;
         z-index: 999;
         }
     
         .intro-name {
-        font-size:  2.5rem;
+        font-size:  2rem;
         font-weight: bolder;
         font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
         color:  black;
@@ -542,7 +561,7 @@
         }
     
         .intro-title {
-        font-size:  2.5rem;
+        font-size:  3rem;
         font-weight: bolder;
         font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
         color:  black;
@@ -572,7 +591,7 @@
     
         .feature-container {
             margin: auto;
-            width: 80vw;
+            width: 85vw;
             height: auto;
             padding-bottom: 30px;
         
@@ -599,21 +618,29 @@
             border-style: hidden;
             bottom: 0px;
             border-style: hidden;
-            
         
         }   
     
         .card-action-area{
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items:flex-start;
+            box-shadow: none;
+        }
+
+        .card-action-area.home{
             height: 60vh;
             display: flex;
             flex-direction: column;
             justify-content: start;
             align-items:flex-start;
-            
+            box-shadow: none;
         }
     
         .card-media {
-            height: 20vh;
+            height: 40vh;
             width: auto;
             margin: 0px;
             padding: 0px;
@@ -621,7 +648,7 @@
     
         .content-container {
             width: 90vw;
-            max-height: 40vh;
+            max-height: 30vh;
             margin-top: 50px;
             justify-content: start;
             align-items: center;
@@ -749,7 +776,7 @@
             height: 30vh;
             /* margin-left: 30px; */
             top: 10%;
-            left: 10%;
+            left: 10vw;
             margin-top: 20px;
             z-index: 2;
             border-style: solid;
@@ -930,7 +957,7 @@
         .intro-img {
         position: relative;
         width: auto;
-        height: 65vh;
+        height: 40vh;
         margin: 0px;
         z-index: 999;
         padding: 0px;
@@ -1004,8 +1031,7 @@
             border-style: hidden;
             bottom: 0px;
             border-style: hidden;
-            
-        
+
         }   
     
         .card-action-area{
@@ -1015,6 +1041,14 @@
             justify-content: start;
             align-items:flex-start;
             
+        }
+        .card-action-area.home{
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items:flex-start;
+            box-shadow: none;
         }
     
         .card-media {
