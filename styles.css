@@ -1043,7 +1043,7 @@
             
         }
         .card-action-area.home{
-            height: 30vh;
+            height: 20vh;
             display: flex;
             flex-direction: column;
             justify-content: start;
@@ -1052,7 +1052,7 @@
         }
     
         .card-media {
-            height: 25vh;
+            height: 15vh;
             width: auto;
             margin: 0px;
             padding: 0px;
@@ -1142,7 +1142,7 @@
     
         .l-img-2 {
             position: absolute;
-            left: 300px;
+            left: 400px;
             top: 90px;
             width: auto;
             height: 30vh;
@@ -1199,7 +1199,7 @@
     
         .r-img-2 {
             position: absolute;
-            /* left: 55%; */
+            left: 150px;
             top: 20%;
             width: auto;
             height: 30vh;
